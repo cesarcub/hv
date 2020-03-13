@@ -1,0 +1,25 @@
+.aside-left {
+    background-color: #e4e4e4;
+}
+
+.h-underlined::after {
+    content: ' ';
+    border: 2px solid #757575;
+    width: 20%;
+    display: block;
+    margin-top: 3px
+}
+
+.img-perfil {
+    background-image: url(csr.png);
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.text-14 {
+    font-size: 14px;
+}
